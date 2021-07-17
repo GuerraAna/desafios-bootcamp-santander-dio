@@ -1,0 +1,46 @@
+-> Desafio:
+ Leia 2 valores de ponto flutuante de dupla precisão A e B,
+ que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno,
+ sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11).
+ Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
+
+-> Entrada:
+   . Leitura de duas variáveis, A e B, de ponto flutuante com dupla precisão e uma casa decimal;
+   . Essas duas variáveis representam as duas notas de um aluno. Sendo, A a primeira nota e B a segunda nota;
+
+-> Lógica:
+   . Calcule a média do aluno, entre A e B;
+   . A nota A tem peso 3.5;
+   . A nota B tem peso 7.5;
+   . A soma dos pesos resulta 11;
+   . Cada nota pode ir de 0 á 10;
+
+-> Saída:
+   . Escreva a saída da MEDIA com 5 dígitos após o ponto decimal;
+   . Com um espaço branco antes e depois da igualdade;
+   .
+
+-> Exemplos:
+    1) A = 5.0, B = 7.1, SOMA = 6.43182
+    2) A = 0.0, B = 7.1, SOMA = 4.84091
+    3) A = 10.0, B = 10.0, SOMA = 10.00000
+
+-> Código Base:
+import java.util.Scanner
+
+fun main(args: Array<String>) {
+  var reader = Scanner(System.`in`)
+
+  var a = reader.nextDouble()
+  var b =
+
+  var weightA = 3.5
+  var weightB =
+  var totalWeight =
+
+  var m = (a *      +  * weightB) / totalWeight
+
+  var r = "%.5f".format(m)
+
+  println("MEDIA = ${r}")
+}
