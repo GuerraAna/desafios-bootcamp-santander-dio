@@ -1,0 +1,29 @@
+-> Desafio:
+ Você receberá dois valores inteiros.
+ Faça a leitura e em seguida calcule o produto entre estes dois valores.
+ Atribua esta operação à variável PROD, mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo).
+
+-> Entrada:
+   . Leitura de duas variáveis, A e B, dos tipos inteiro;
+
+-> Lógica:
+   . Calcule o produto entre as duas variáveis de leitura;
+   . Atribua o produto o nome PROD.
+
+-> Saída:
+   . A saída é a varável PROD.
+
+-> Exemplos:
+    1) A = 3, B = 9, PROD = 27
+    2) A = -30, B = 10, PROD = -300
+    3) A = 0, B = 9, PROD = 0
+
+-> Código Base:
+fun main(args: Array<String>) {
+
+  val a = readLine()!!.toInt()
+  val b =
+
+  println("PROD = ${   *   }")   //insira as variaveis corretamente
+
+}
