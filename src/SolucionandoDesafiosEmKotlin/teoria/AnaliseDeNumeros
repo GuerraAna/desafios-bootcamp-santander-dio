@@ -1,0 +1,35 @@
+-> Desafio:
+    Você deve fazer a leitura de 5 valores inteiros.
+    Em seguida mostre quantos valores informados são pares,
+    quantos valores informados são ímpares,
+    quantos valores informados são positivos e quantos valores informados são negativos.
+
+-> Entrada:
+   Você receberá 5 valores inteiros.
+
+-> Saída:
+   Exiba a mensagem conforme o exemplo de saída abaixo,
+   sendo uma mensagem por linha e não esquecendo o final de linha após cada uma.
+
+-> Exemplos:
+    1) negativos = -5, inteiros = 0, pares = -4, positivos = 12, impares = -3 ->
+       3, 2, 1, 3
+
+-> Código Base:
+fun main(args: Array<String>) {
+
+  val inteiros = mutableListOf<Int>()
+//continue declarando as variaveis
+
+  for (i in 1..5) { inteiros.add(readLine()!!.toInt()) }
+  for (i in inteiros) { if (    ) { pares.add(i) } }
+  for (i in inteiros) { if (    ) { impares.add(i) } }
+  for (i in inteiros) { if (    ) { positivos.add(i) } }
+  for (i in inteiros) { if (    ) { negativos.add(i) } }
+
+  println("${pares.size} valor(es) par(es)")
+  println("${                   } valor(es) impar(es)")
+  println("${                   } valor(es) positivo(s)")
+  println("${                   } valor(es) negativo(s)")
+
+}
