@@ -1,0 +1,32 @@
+-> Desafio:
+    A corrida de tartarugas é um esporte que cresceu muito nos últimos anos,
+    fazendo com que vários competidores se dediquem a capturar tartarugas rápidas,
+    e treina-las para faturar milhões em corridas pelo mundo.
+    Porém a tarefa de capturar tartarugas não é uma tarefa muito fácil,
+    pois quase todos esses répteis são bem lentos.
+    Cada tartaruga é classificada em um nível dependendo de sua velocidade:
+
+
+    Nível 1: Se a velocidade é menor que 10 cm/h .
+    Nível 2: Se a velocidade é maior ou igual a 10 cm/h e menor que 20 cm/h .
+    Nível 3: Se a velocidade é maior ou igual a 20 cm/h .
+
+    Sua tarefa é identificar qual o nível de velocidade da tartaruga mais veloz de um grupo.
+
+-> Entrada:
+   . Leitura de quatro variáveis, A, B, C e D, do tipo inteiro.
+
+-> Lógica:
+    . 1º Condição:
+        B > C
+        D > A
+        (C + D) > (A + B)
+        C e D positivos
+        A for par
+
+-> Saída:
+   . Escreva a saída da 1º Condição como "Valores Aceitos", se não, escreva como "Valores nao aceitos"
+
+-> Exemplos:
+    1) A = 5, B = 6, C = 7, D = 8, valores nao aceitos
+    2) A = 2, B = 3, C = 2, D = 6, valores aceitos
